@@ -2,7 +2,7 @@
 
 Uzdevums:  
 Uzrakstīt programmu, kas ļauj  
- - ievadīt izdevumus: nosaukumu, sum mu un kategoriju  
+ - ievadīt izdevumus: nosaukumu, summu un kategoriju  
  - atspoguļot uz ekrāna visus izdevumus  
  - iespēja atlasīt 10 lielākus izdevumus  
  - iespēja atlasīt 10 mazākus izdevumus
