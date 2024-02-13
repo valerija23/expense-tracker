@@ -1,1 +1,10 @@
-# expense-tracker
+# Expense Tracker
+
+Uzdevums:  
+Uzrakstīt programmu, kas ļauj  
+ - ievadīt izdevumus: nosaukumu, sum mu un kategoriju  
+ - atspoguļot uz ekrāna visus izdevumus  
+ - iespēja atlasīt 10 lielākus izdevumus  
+ - iespēja atlasīt 10 mazākus izdevumus  
+[!] Programmai jaglabā izdevumu stāvokli kad programma ir izslēgta palaista no jauna  
+  
