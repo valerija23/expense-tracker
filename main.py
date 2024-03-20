@@ -25,7 +25,27 @@ pass
 while True:
     command = input("\nChoose command:")
     if command == "1":
+        name = input("Enter a transaction name: ")
+        sum = float(input("Enter a transaction sum: "))
+        category = input("Enter a transaction category: ")
+        Izdevums = {"Transaction name": name, "Transaction sum": sum, "Transaction category": category}
+        expenses.append(Izdevums)
+
         pass
+    if command == "2":
+        print("Your expenses is: ", expenses)
+    if command == "3":
+        def sort_10bigest(expenses):
+            return int(expenses["Transaction sum"])
+        expenses.sort(key=sort_10bigest)
+        print(expenses[:10])
+    if command == "4":
+        def sort_10smalest(expenses):
+            return int(expense["Transaction sum"])
+        expenses.sort(key=sort_10smalest, reverse = True)
+        print(expenses[:10])    
+    
+
     if command == "e":
         print("Exiting...")
         break
